@@ -1,0 +1,58 @@
+#titulo {
+    text-align: center;
+}
+estilo_div {
+    grid-template-columns: 1fr 1fr; 
+    gap: 10px;
+    justify-content: space-around; 
+    font-weight: bolder;
+    display: flex;
+  }
+  .box {
+    width: auto;
+    height: auto;
+    /* background-color: #4CAF50; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* Estiliza as sections em duas colunas */
+.container-sections {
+    display: grid;
+    grid-template-columns: 2fr 2fr; /* duas colunas iguais */
+    gap: 20px; /* espaçamento entre as colunas */
+    font-weight: bolder;
+  }
+ /* Define cores de fundo para cada section */
+ #secao_ul {
+    background-color: #54a0e3; 
+    padding: 15px;
+    border-radius: 8px;
+  }
+  #secao_ol_numerica {
+    background-color: #7d7d8a; 
+    padding: 15px;
+    border-radius: 8px;
+  }
+  #secao_ol_alfaminusculo {
+    background-color: #b2b262; 
+    padding: 15px;
+    border-radius: 8px;
+  }
+  #secao_ol_alfamaiusculo {
+    background-color: #ae7670; 
+    padding: 15px;
+    border-radius: 8px;
+  }
+  #secao_ol_alga_romano_minusculo {
+    background-color: #742d5f; 
+    padding: 15px;
+    border-radius: 8px;
+  }
+  #secao_ol_alga_romano_maiusculo {
+    background-color: #46b6b6; 
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
